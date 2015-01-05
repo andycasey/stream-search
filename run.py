@@ -228,9 +228,9 @@ if __name__ == "__main__":
         except:
             None
 
-        vel_limits = (-500, 500)
-        ax_vel.set_xlim(*vel_limits)
-        ax_vel_fancy.set_xlim(*vel_limits)
+        #vel_limits = (-500, 500)
+        #ax_vel.set_xlim(*vel_limits)
+        #ax_vel_fancy.set_xlim(*vel_limits)
 
         ax_vel.set_ylabel("N")
         ax_vel_fancy.set_ylabel("N")
@@ -265,6 +265,6 @@ if __name__ == "__main__":
 
         plt.close()
 
-
+# 168, 236
     raise a
 
